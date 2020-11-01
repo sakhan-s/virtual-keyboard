@@ -15,6 +15,10 @@ body {
     color: rgb(151, 108, 29);
 }
 
+.black {
+    color: whitesmoke;
+}
+
 .keyboard {
     position: fixed;
     left: 0;
@@ -67,13 +71,13 @@ body {
 }
 
 .keyboard__key--extra-wide {
-    width: 30%;
-    max-width: 100px;
+    width: 40%;
+    max-width: 1000px;
 }
 
 .backspace_key {
-    background: url(/assets/delete.svg);
-    color: wheat;
+    background: chartreuse;
+    color: rgb(19, 15, 9);
 }
 
 .keyboard__key--activatable::after {
