@@ -33,7 +33,7 @@ const Keyboard = {
         'Space': 56,
         'ContextMenu': 57,
         'ArrowLeft': 58,
-        'ArrowRight': 60,
+        'ArrowRight': 39,
     },
 
 
@@ -158,7 +158,7 @@ const Keyboard = {
         'Space': 56,
         'ContextMenu': 57,
         'ArrowLeft': 58,
-        'ArrowRight': 60
+        'ArrowRight': 39,
     },
 
 
