@@ -305,10 +305,6 @@ function add_html() {
     const textarea = document.createElement('textarea');
 
 
-
-    title.innerText = 'sakhan-s keyboard';
-    achtung1.innerText = 'virtual-keyboard';
-    achtung2.innerText = 'alt, then press on language button to change'
     textarea.setAttribute('name', 'input');
     textarea.setAttribute('cols', '30');
     textarea.setAttribute('rows', '8');
