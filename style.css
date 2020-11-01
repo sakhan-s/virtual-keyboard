@@ -1,5 +1,5 @@
 body {
-    background: rgba(168, 24, 24, 0);
+    background: rgb(0, 0, 0);
     max-height: 1000px;
 }
 
@@ -8,11 +8,12 @@ body {
     width: 80%;
     margin: 30px auto;
     padding: 10px;
-    font-size: 20px;
+    font-size: 4rem;
     height: calc(100vh - 500px);
     min-height: 300px;
     background: rgb(0, 0, 0);
     color: rgb(151, 108, 29);
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .black {
@@ -47,8 +48,8 @@ body {
     margin: 3px;
     border-radius: 9px;
     border: none;
-    background: rgb(231, 224, 224);
-    color: #000000;
+    background: rgb(0, 0, 0);
+    color: #ffffff;
     font-size: 1.45rem;
     outline: none;
     cursor: pointer;
@@ -64,6 +65,12 @@ body {
 .keyboard__key:hover {
     background: rgb(0, 0, 0);
     color: yellow;
+}
+
+.keyboard__key:active {
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
 }
 
 .keyboard__key--wide {
